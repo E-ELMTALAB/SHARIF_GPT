@@ -75,7 +75,7 @@ GMAIL_TOKEN_PICKLE = 'token.pickle'                   # Path to store Gmail API 
 
 # Forwarded email details
 EMAIL_SUBJECT = 'Your ChatGPT code'  # Subject of the verification email
-CODE_REGEX = '\b\d{6}\b'  # Regex to extract the 6-digit code
+CODE_REGEX = r'\b\d{6}\b'  # Regex to extract the 6-digit code
 
 # --------------------------------------------------
 
