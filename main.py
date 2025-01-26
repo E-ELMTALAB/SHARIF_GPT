@@ -328,7 +328,7 @@ async def process_message(service, message):
                     cursor = conn.cursor()
                     cursor.execute('''
                         UPDATE accounts
-                        SET state = 'completed', verification_code = %s, user_id = NULL, last_assigned = NULL
+                        SET state = 'available', verification_code = %s, user_id = NULL, last_assigned = NULL
                         WHERE email = %s
                     ''', (verification_code, to_email))
                     conn.commit()
