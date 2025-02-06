@@ -35,12 +35,7 @@ DATABASE_URL = 'postgresql://posts_owner:jYw1bfDnOHW2@ep-holy-glitter-a287uyrp.e
 
 # Farsi Keywords indicating a request for a free account
 REQUEST_KEYWORDS = [
-    "رایگان",
-    "اکانت رایگان",
-    "اکانت تست"
-    "مجانی",
-    "دریافت اکانت",
-    "chatgpt رایگان"
+"lkjdslsdjfjsdf"
 ]
 
 # Regex pattern to detect Gmail addresses
